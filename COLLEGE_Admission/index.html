@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form_outline">
+        <h1>COLLEGE ADMISSION FORM</h1>
+        <hr>
+        <br>
+        <label>NAME<span style="color:red">*</span>:
+            <input type="text" placeholder="First name" required>
+            <input type="text" placeholder="Last name" required>
+        </label>
+        <br>
+        <label>MOBILE<span style="color:red">*</span>:
+            <input type="text" placeholder="Enter your mobile number" required>
+        </label>
+        <br>
+        <label>EMAIL<span style="color:red">*</span>:
+            <input type="email" placeholder="Enter your email id" required>
+        </label>
+
+        <br>
+        <label>DATE OF BIRTH<span style="color:red">*</span>:
+            <input type="date" placeholder="">
+        </label>
+
+        <br>
+        <label >GENDER:
+            <input style="color:black" type="radio" name="gender"><span>MALE</span>
+            <input style="color:black" type="radio" name="gender"><span>FEMALE</span>
+            <input  style="color:black" type="radio" name="gender"><span>OTHERS</span>
+        </label>
+
+        <br>
+        <label>FATHER'S NAME<span style="color:red">*</span>:
+            <input type="text" placeholder="Enter your father name" required>
+        </label>
+
+        <br>
+        <label>MOTHER'S NAME<span style="color:red">*</span>:
+            <input type="text" placeholder="Enter your mother name" required>
+        </label>
+
+        <br>
+        <label>PERMANENT ADDRESS<span style="color:red">*</span>:
+            <textarea style="height:15px;width:400px;" placeholder="Enter your permanent address" required></textarea> 
+        </label>
+
+        <br><br>
+        <label>PRESENT ADDRESS<span style="color:red">*</span>:
+            <textarea  style="height:15px;width:430px;" placeholder="Enter your present address" required></textarea> 
+        </label>
+
+        <br><br>
+        <label>VILLAGE:
+            <input type="text" placeholder="Enter your village name">
+        </label>
+        <label>CITY:
+            <input type="text" placeholder="Enter your city name">
+        </label>
+        <br>
+        <label>STATE<span style="color:red">*</span>:
+            <input type="text" placeholder="Enter your state name" required>
+        </label>
+        <label>PINCODE<span style="color:red">*</span>:
+            <input type="text" placeholder="Enter your pincode name" required>
+        </label>
+        <br>
+        <label>EDUCATIONAL DETAILS:</label>
+        <!-- table -->
+        <table>
+            <tr>
+                <th>CLASS</th>
+                <th>YEAR OF PASSING</th>
+                <th>COLLEGE NAME</th>
+                <th>CGPA %  </th>
+            </tr>
+            <tr>
+                <td><b>10-CLASS</b></td>
+                <td><select style="width:80%;">
+                <option>2014</option>
+                <option >2015</option>
+                <option>2016</option>
+                <option >2017</option>
+                <option >2018</option>
+                <option >2019</option></select></td>
+                <td ><input type="text" height:10px width:100%></td>
+                <td ><input type="text" height:10px width:100%></td>
+            </tr>
+            <tr>
+                <td><b>PUC</b></td>
+                <td><select style="width:80%;">
+                <option>2016</option>
+                <option >2017</option>
+                <option >2018</option>
+                <option>2019</option>
+                </select></td>
+                <td ><input type="text" height:10px width:100%></td>
+                <td ><input type="text" height:10px width:100%></td>   
+            </tr>
+        </table>
+
+        <br>
+        <label>JEE MARKS<span style="color:red">*</span>:
+            <input type="text" placeholder="Enter your marks" required>
+        </label>
+        <label>CATAGORY<span style="color:red">*</span>:
+            <select name="CATAGORY*" required>
+                                <option>   </option>
+                                <option>GENERAL</option>
+                                <option>OBC</option>
+                                <option>SC</option>
+                                <option>ST</option>
+                                <option>OTHER MINOR CATAGORY</option>
+                         </select>
+            
+        </label>
+
+        <br>
+        <label>SELECT GROUP<span style="color:red">*</span>:
+            <select style="width:100px;" name="SELECT GROUP*" required>
+                                <option>   </option>
+                                <option>A1</option>
+                                <option>A2</option>
+                                <option>A3</option>
+                                <option>A4</option>
+                                <option>A5</option>
+                        </select>
+        </label>
+        <label>SELECT BRANCH<span style="color:red">*</span>:
+            <select name="SELECT BRANCH*" required>
+            <option>   </option>
+            <option>ELECTRONICS</option>
+            <option>COMPUTER SC.</option>
+            <option>ELECTRICAL</option>
+            <option>MECHANICAL</option>
+            <option>AUTOMOBILE</option>
+            </select>
+        </label>
+        <br><br>
+        <label>PERSONAL INFORMATION:</label>
+        <br><br>
+        <label>LANGUAGES YOU KNOW:
+            <input name="lang" type="checkbox"><span style="color:black;">ENGLISH</span>
+            <input name="lang"  type="checkbox"><span style="color:black;">HINDI</span>
+            <input name="lang"  type="checkbox"><span style="color:black;">TELEGU</span>
+            <input  name="lang" type="checkbox"><span style="color:black;">TAMIL</span>
+        </label>
+        <br>
+        <label> CV<span style="color:red">*</span>:
+            <input type="file" style="color:black" required>
+        </label>
+        <br>
+        <label> IMAGE<span style="color:red">*</span>:
+            <input type="file" style="color:black" required>
+        </label>
+        <br>
+        <label> JEE MARKS CARD<span style="color:red">*</span>:
+            <input type="file" style="color:black" required>
+        </label>
+        <br>
+        <label> 10th MARKS SHEET<span style="color:red">*</span>:
+            <input type="file" style="color:black" required>
+        </label>
+        <br>
+        <label> PUC MARKS CARD<span style="color:red">*</span>:
+            <input type="file" style="color:black" required>
+        </label>
+        <br>    
+        <div>
+            <button>SUBMIT</button>
+            <button>CLEAR </button>
+        </div>
+
+
+
+
+    </form>
+    
+</body>
+</html>
